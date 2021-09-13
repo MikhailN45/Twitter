@@ -9,12 +9,13 @@
     android:layout_marginEnd="10dp"
     android:layout_marginBottom="10dp"
     app:cardCornerRadius="10dp"
-    app:contentPadding="15dp">
+    app:contentPadding="15dp"
+    app:cardBackgroundColor="@color/white">
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="#FFFFFF">
+        android:background="@color/white">
 
         <ImageView
             android:id="@+id/imageView5"
@@ -52,6 +53,8 @@
             android:gravity="center"
             android:text="@string/name_example"
             android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textColor="@color/black"
+            android:textStyle="bold"
             app:layout_constraintBottom_toTopOf="@+id/recommend_nick_name_text"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -63,6 +66,7 @@
             android:layout_height="wrap_content"
             android:gravity="center"
             android:text="@string/nickname_example"
+            android:textColor="@color/black"
             app:layout_constraintBottom_toTopOf="@+id/followButton"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
